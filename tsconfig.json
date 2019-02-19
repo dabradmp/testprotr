@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": false,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "outDir": "tmp",
+    "allowJs": true,
+    "types": ["jasmine", "node"],
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "test/**/*.ts",
+    "lib/**/*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
