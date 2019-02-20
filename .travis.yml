@@ -22,7 +22,7 @@ before_script:
   ## - hiptest-publisher --config-file=protractor.conf --test-run-id=233038 --only=tests
 
 script:
-  - (webdriver-manager start &) && (npm start > /dev/null &) && (npm run protractor)
+  - (webdriver-manager start &) && sleep 2 && (npm start > /dev/null &) && (npm run protractor)
 
 after_script:
   ## - hiptest-publisher --config-file=protractor.conf --test-run-id=233038 --push="test-reports/*.xml"
