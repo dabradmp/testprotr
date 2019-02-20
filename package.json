@@ -27,7 +27,7 @@
     "firefox-profile": "^1.0.1",
     "geckodriver": "^1.7.1",
     "jasmine-reporters": "^2.2.0",
-    "protractor": "file:../protractor-master",
+    "protractor": "^5.1.1",
     "protractor-build-verification-testreport": "0.0.4",
     "protractor-jasmine2-html-reporter": "0.0.7",
     "shelljs": "^0.7.8",
