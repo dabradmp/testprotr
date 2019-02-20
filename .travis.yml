@@ -13,11 +13,11 @@ install:
   - sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
   - sudo apt-get update -q
   - sudo apt-get install -q google-chrome-stable
-  - git clone --depth=50 --branch=master https://github.com/dabradmp/protractor.git ../protractor
   ## - gem install hiptest-publisher
 
 before_script:
   - npm install
+  - git clone --depth=50 --branch=master https://github.com/dabradmp/protractor.git ../protractor
   - cd ../protractor
   - npm install
   - cd ../testprotr
