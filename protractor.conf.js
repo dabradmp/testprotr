@@ -1,6 +1,6 @@
 var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 var JasmineReporters = require('jasmine-reporters');
-var q = require('q');
+//var q = require('q');
 var path = require('path');
 var sh = require('shelljs');
 var cwd = sh.pwd().toString();
